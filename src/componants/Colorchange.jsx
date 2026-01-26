@@ -15,7 +15,9 @@ function ColorChange() {
 
           {/* Buttons */}
           <button  
-            className=" btn-outline-none px-4 py-1 rounded-full text-white bg-red-500 hover:bg-red-600 transition-colors shadow-lg"
+            className=" btn-outline-none px-4 py-1 rounded-full text-white bg-red-500 hover:bg-red-600 transition-colors shadow-lg"type  
+            
+
             onClick={() => setColor("red")}
           >
             Red
